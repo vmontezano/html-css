@@ -8,9 +8,10 @@
 
 
 body {
-  background-image: url('../img/fundo.jpg');
+  /* background-image: url('../img/fundo.jpg');
   background-size: auto 100vh;
-  height: 100vh;
+  height: 100vh; */
+  background-color: darkslateblue;
 }
 
 /* se a tela tiver pelo menos 40px vai carregar estes estilos */ 
