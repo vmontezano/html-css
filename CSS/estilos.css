@@ -1,17 +1,50 @@
+/* reset css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
-    background: blue;
-    font-family: Verdana;
+  background-image: url('../img/fundo.jpg');
+  background-size: auto 100vh;
+  height: 100vh;
+}
+
+/* se a tela tiver pelo menos 40px vai carregar estes estilos */ 
+@media (min-width: 400px) {
+  body { 
+    font-size: 14px;
   }
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
-  .menu {
+.menu {
     background-color: white;
-  }
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
   
-  .menu ul {
+.menu ul {
     display: flex;
     justify-content: space-around;
    
-  }
+}
+
+.menu a {
+  
+  display: block;
+  padding: 10px 20px;
+}
   
   a {
     color: teal;
@@ -35,3 +68,8 @@ body {
   .site-subtitle {
     font-style: italic;
   }
+
+.img-portfolio {
+  height: 180px;
+  width: 180px;
+}
